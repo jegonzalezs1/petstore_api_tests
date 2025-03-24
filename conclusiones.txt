@@ -1,4 +1,4 @@
-Conclusiones
+Conclusiones sobre las pruebas en petswagger.io con Cypress
 
 Hallazgos
 1. La API de PetStore respondió exitosamente con un código 200 para la creación de usuarios.
