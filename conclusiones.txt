@@ -1,0 +1,16 @@
+# Conclusiones
+
+## Hallazgos
+1. La API de PetStore respondió exitosamente con un código `200` para la creación de usuarios.
+2. El tiempo promedio de respuesta fue de 150 ms.
+3. Todas las pruebas de validación del cuerpo de la respuesta (`response.body.message == id`) pasaron exitosamente.
+
+## Retos Observados
+El endpoint `/user` de la API funciona correctamente bajo las condiciones de prueba.
+
+## Recomendaciones
+1. Se recomienda implementar pruebas adicionales para escenarios negativos, como:
+   - Intentar crear un usuario con datos incompletos.
+   - Intentar crear un usuario con un `username` ya existente.
+
+2. El script es portátil y puede ser extendido fácilmente para incluir más pruebas, como actualizaciones o eliminación de usuarios.
